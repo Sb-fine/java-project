@@ -18,4 +18,4 @@ jobs:
      runs-on: self-hosted
      steps:
          - name: tomcat deploy
-           run: sudo cp /home/fineshift/mnt/actions-runner/_work/java-project/java-project/target/studentapp-2.2-SNAPSHOT.war /home/fineshift/mnt/webserver/apache-tomcat-9.0.78/webapps
+           run: cp /home/fineshift/mnt/actions-runner/_work/java-project/java-project/target/studentapp-2.2-SNAPSHOT.war /home/fineshift/mnt/webserver/apache-tomcat-9.0.78/webapps
