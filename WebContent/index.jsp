@@ -30,7 +30,7 @@ div.ex {
 		<form action="registrationController" method="post">
 			<table style="with: 50%">
 				<tr>
-					<td>Employee ID</td>
+					<td>Employee Name</td>
 					<td><input type="text" name="fullname"/></td>
 				</tr>
 				<tr>
@@ -58,7 +58,7 @@ div.ex {
 		</form>
 	</div>
 	<div class="footer">
-  	 	<p>Author: Shubham@Fineshift<br>
+  	 	<p>Author: Shubham@Fineshift (Deployed on ON_PREM by using GITHUB by Saurabh)<br>
   		<a href="mailto:shubh@fineshift.com">shubh@fineshift.com</a></p>
 	</div>
 
