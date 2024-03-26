@@ -8,12 +8,12 @@ phases:
     commands:
       - echo Build started on `date`
       - echo Building the Docker image...          
-      - docker build -t saurabh:latest .
+      - docker build -t saurabh .
     
      
   post_build:
     commands:
       - echo Build completed on `date`
       - echo Pushing the Docker image...
-      - docker tag saurabh:latest 004234688791.dkr.ecr.us-east-1.amazonaws.com/saurabh:latest
+      - docker tag saurabh:latest  004234688791.dkr.ecr.us-east-1.amazonaws.com/saurabh:latest
       - docker push 004234688791.dkr.ecr.us-east-1.amazonaws.com/saurabh:latest
