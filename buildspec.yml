@@ -4,7 +4,7 @@ phases:
   pre_build:
     commands:
       - echo Logging in to Amazon ECR...
-      - aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 004234688791.dkr.ecr.us-east-1.amazonaws.com
+      
     commands:
       - echo Build started on `date`
       - echo Building the Docker image...          
@@ -15,5 +15,5 @@ phases:
     commands:
       - echo Build completed on `date`
       - echo Pushing the Docker image...
-      - docker tag saurabh:latest  004234688791.dkr.ecr.us-east-1.amazonaws.com/saurabh:latest
-      - docker push 004234688791.dkr.ecr.us-east-1.amazonaws.com/saurabh:latest
+      - 
+      - 
