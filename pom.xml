@@ -32,9 +32,9 @@
     <url>https://fineshift-004234688791.d.codeartifact.us-east-1.amazonaws.com/maven/saurabh/</url>
         </repository>
         <snapshotRepository>
-            <id>deployment</id>
-            <name>Internal Snapshot Releases</name>
-            <url>http://${NEXUS_SERVER}:8081/repository/${REPOSITORY_NAME}</url>
+            <id>fineshift-saurabh</id>
+    <name>fineshift-saurabh</name>
+    <url>https://fineshift-004234688791.d.codeartifact.us-east-1.amazonaws.com/maven/saurabh/</url>
         </snapshotRepository>
     </distributionManagement>
   <dependencies>
