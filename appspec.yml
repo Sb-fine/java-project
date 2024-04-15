@@ -3,5 +3,5 @@ version: 0.0
 os: linux
 
 files:
-  - source: /studentapp-2.2-SNAPSHOT.war
+  - source: /output/studentapp-2.2-SNAPSHOT.war
     destination: /mnt/webserver/apache-tomcat-9.0.87/webapps
