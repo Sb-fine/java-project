@@ -13,11 +13,12 @@ phases:
     commands:
     - echo Build completed on `date`
     - mvn package
-    - mv target/studentapp-2.2-SNAPSHOT.war studentapp-2.2-SNAPSHOT.war 
+    - mkdir output
+    - cp target/*.war  output/studentapp-2.2-SNAPSHOT.war 
+
 artifacts:
   files:
-  - studentapp-2.2-SNAPSHOT.war 
-  - .ebextensions/**/*
+  - '**/*'
      
   
       
